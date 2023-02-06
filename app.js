@@ -9,17 +9,17 @@ app.get('/', (request, response, next) => {
     response.sendFile(__dirname + '/views/home.html')
 })
 
-app.get('/About', (request, response, next) => {
+app.get('/about', (request, response, next) => {
 
     response.sendFile(__dirname + '/views/about.html')
 })
 
-app.get('/Works', (request, response, next) => {
+app.get('/works', (request, response, next) => {
 
     response.sendFile(__dirname + '/views/works.html')
 })
 
-app.get('/photogallery', (request, response, next) => {
+app.get('/photo', (request, response, next) => {
 
     response.sendFile(__dirname + '/views/photo.html')
 })
